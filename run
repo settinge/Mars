@@ -1,1 +1,0 @@
-FLASK_APP=mars_app/flask_mars.py flask run
