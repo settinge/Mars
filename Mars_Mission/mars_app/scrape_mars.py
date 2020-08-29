@@ -5,6 +5,7 @@ import pandas as pd
 import pymongo
 import requests
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
@@ -51,6 +52,7 @@ def scrape_info():
     browser.visit(url)
     full_image_elem = browser.find_by_id('full_image')
     full_image_elem.click()
+    
     more_info_elem = browser.find_link_by_partial_text('more info')
     more_info_elem.click()
     html = browser.html
