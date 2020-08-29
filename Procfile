@@ -1,0 +1,1 @@
+web: gunicorn mars_app.flask_mars:app
