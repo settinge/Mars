@@ -53,7 +53,7 @@ def scrape_info():
     full_image_elem = browser.find_by_id('full_image')
     full_image_elem.click()
     
-    more_info_elem = browser.find_link_by_partial_text('more info')
+    more_info_elem = browser.links.find_by_partial_text('more info')
     more_info_elem.click()
     html = browser.html
     img_soup = BeautifulSoup(html, 'html.parser')
