@@ -6,9 +6,9 @@ In this assignment, I built a web application that scrapes various websites for 
 
 1. Clone the repository into a directory on your computer
 
-2. Open the repository in a code source editor.
+2. Open the repository in a code source editor
 
-3. Navigate to flask_mars.py and run the code.
+3. Navigate to flask_mars.py and run the code
 
 4. Wait until you see the web page running on a server and click the link to open the web page in your browser
 
