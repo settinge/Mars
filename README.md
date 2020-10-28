@@ -1,6 +1,19 @@
 # Mars
 
 In this assignment, I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the work I completed
+
+## How to Run Code
+
+1. Clone the repository into a directory on your computer
+
+2. Open the repository in a code source editor.
+
+3. Navigate to flask_mars.py and run the code.
+
+4. Wait until you see the web page running on a server and click the link to open the web page in your browser
+
+5. Enjoy!
+
 ## Step 1 - Scraping
 
 I Completed my initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
