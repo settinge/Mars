@@ -53,3 +53,15 @@ Used MongoDB with Flask templating to create a new HTML page that displays all o
 * Created a root route `/` that queries my Mongo database and passes the mars data into an HTML template to display the data.
 
 * Created a template HTML file called `index.html` that takes the mars data dictionary and display all of the data in the appropriate HTML elements. 
+
+## Screenshots
+
+![ScreenShot](App_1.JPG) 
+
+Above is a screenshot of the top half of the web application. When "Scrape Data!" is clicked on, the web page refreshes with the most recent data.
+
+![ScreenShot](App_2.JPG) 
+
+Above is a screenshot of the bottom half of the web application. Scraped information is displayed on the web page. A table was used to display facts about Mars so that the user can view all facts in a a clear, quick manner.
+
+
